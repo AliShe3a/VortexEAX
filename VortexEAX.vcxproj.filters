@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{6b115028-c9d2-43e5-9fc5-e33a9ff7475e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structure">
+      <UniqueIdentifier>{e33eb447-01ae-40db-8cd6-d1f8871becfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structure\Reverb">
+      <UniqueIdentifier>{7aaf4051-fd95-4013-85c4-ee1b9f5c9aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VSTWrapper">
+      <UniqueIdentifier>{d4f06cd6-a2ed-4d86-99bf-75f2d3a3b44c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VSTWrapper\EAXReverb">
+      <UniqueIdentifier>{eaa42398-33ba-46a1-9c98-d11ecf3a3592}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverbEffect.cpp">
+      <Filter>Structure\Reverb</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ReverbEffect.h">
+      <Filter>Structure\Reverb</Filter>
+    </ClInclude>
+    <ClInclude Include="efx-presets.h">
+      <Filter>Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="miniaudio.h">
+      <Filter>Structure</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
